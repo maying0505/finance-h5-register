@@ -1,0 +1,55 @@
+body {
+    background-color: #ffab2c;
+}
+
+.container .container-page {
+    position: relative;
+}
+
+.container .container-page .page-bg {
+    width: 100%;
+    height: auto;
+}
+
+.download-con {
+    background-color: #fff;
+    position: absolute;
+    top: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6.56rem;
+    font-size: 0;
+    padding: .72rem .28rem;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: .4rem;
+}
+
+.container-page .con-img {
+    width: 5.9rem;
+    height: 1.66rem;
+}
+
+.container .container-page .download-btn {
+    width: 6rem;
+    height: .96rem;
+    margin-top: .52rem;
+    background: url('../../public/image/btn_download.png') no-repeat;
+    background-size: 100%, 100%;
+}
+
+.container .download-tip {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .9);
+    z-index: 999;
+}
+
+.container .download-tip .tip-img {
+    width: 100%;
+    height: auto;
+}

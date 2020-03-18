@@ -1,0 +1,96 @@
+
+body {
+    background-color: #ffab2c;
+}
+
+.dahuo-toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    color: #fff;
+    z-index: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transition: opacity 1s ease-in-out;
+    font-size: 12px;
+}
+
+.download-page {
+    padding-top: 4rem;
+    background: url('../../public/image/page_bg2.png') no-repeat top/cover;
+}
+.login-container {
+    position: relative;
+}
+
+.up{
+    width: 4.06rem;
+    height: 1.5rem;
+    position: absolute;
+    top:-0.4rem;
+    left:50%;
+    margin-left: -2.03rem;
+    background:url('./image/up.png') no-repeat top/contain;
+}    
+
+.login-container .login-lists {
+    width: 6.68rem;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: .3rem;
+    padding: .75rem .29rem;
+    box-sizing: border-box;
+}
+
+.login-container .login-lists .login-list {
+    width: 6.1rem;
+    height: 0.9rem;
+    font-size: .3rem;
+    color: #333;
+    background-color: #fef4ea;
+    padding-left: .3rem;
+    box-sizing: border-box;
+    margin-bottom: .2rem;
+    border-radius: .12rem;
+    flex-flow: row nowrap;
+}
+
+.login-container .login-lists .login-list .list-input {
+    width: 100%;
+    background-color: transparent;
+    height: 100%;
+    font-size: .3rem;
+}
+
+.login-container .login-lists .login-list .list-input::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.login-container .login-lists .login-list .list-input.code {
+    width: 3.5rem;
+}
+
+.getCodeBtn {
+    background-color: transparent;
+    width: 2.2rem;
+    height: .9rem;
+    line-height: .9rem;
+    border-radius: .9rem;
+    text-align: center;
+    color: #999;
+    font-size: .3rem;
+}
+
+.getCodeBtn.active {
+    color: #ff9c01;
+}
+
+.confirm-btn {
+    width: 6.1rem;
+    height: .96rem;
+    background: url('../../public/image/btn_download.png') no-repeat;
+    background-size: contain;
+    margin: 0.33rem auto 0 auto;
+}
